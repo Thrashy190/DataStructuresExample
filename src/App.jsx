@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import "./App.css";
+import React, { useState } from 'react';
+import './App.css';
 
 function App() {
   const [number, setNumber] = useState(0);
@@ -12,9 +12,9 @@ function App() {
   }
 
   function enQueue() {
-    console.log("enQueue");
+    console.log('enQueue');
     if (queue.length === maxCustomers) {
-      return alert("Nuestro queue esta lleno");
+      return alert('Nuestro queue esta lleno');
     }
     setData([...queue, number]);
     setNumber(number + 1);
@@ -22,9 +22,9 @@ function App() {
   }
 
   function deQueue() {
-    console.log("deQueue");
+    console.log('deQueue');
     if (queue.length === 0) {
-      return alert("Nuestro queue esta vacio");
+      return alert('Nuestro queue esta vacio');
     }
     const copia = [...queue];
     copia.shift();
@@ -61,7 +61,7 @@ function App() {
         <div className="contenedor-customers">
           <span>Numero de datos totales: {queue.length} </span>
           <span>
-            Siguiente dato en salir: {queue.length === 0 ? "Ninguno" : queue[0]}
+            Siguiente dato en salir: {queue.length === 0 ? 'Ninguno' : queue[0]}
           </span>
         </div>
         <div className="botones">
