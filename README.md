@@ -5,14 +5,12 @@ This project is made with the reason of being able to share and show visually ho
 ## Data structures available at the moment:
 
 - Queues
+- Stack
 
 ## Data structures available in the future:
 
-- stack
 - trees
 - linked list
 - etc...
 
 (I accept recomentations)
-
-
