@@ -2,7 +2,7 @@
 
 This project is made with the reason of being able to share and show visually how data structures work.
 
-Proyect link : [Data structures](https://thrashy190.github.io/DataStructuresExample/)
+Page project link: [Data structures](https://thrashy190.github.io/DataStructuresExample/)
 
 ## Data structures available at the moment:
 
